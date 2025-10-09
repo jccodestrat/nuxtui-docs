@@ -20,7 +20,10 @@ export default defineNuxtConfig({
       markdown: {
         toc: {
           searchDepth: 1
-        }
+        },
+    preview: {
+      api: 'https://api.nuxt.studio'
+    }
       }
     }
   },
